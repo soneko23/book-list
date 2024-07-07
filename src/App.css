@@ -1,0 +1,57 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Ym9va3xlbnwwfHwwfHx8MA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  color: rgb(15, 202, 71);
+  font-family: "Playwrite ES Deco", cursive;
+  text-align: center;
+}
+.header {
+  background-color: #d6cfd4;
+  width: 400px;
+  min-height: 80vh;
+  margin: 30px auto;
+  border-radius: 25px;
+}
+img {
+  border-radius: 50%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.crossed {
+  text-decoration: line-through 2px rgb(231, 76, 198);
+  background-color: rgb(243, 236, 197);
+}
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: "Playwrite ES Deco", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn {
+  font-family: "Playwrite ES Deco", cursive;
+  padding: 5px;
+  border: none;
+  width: 80%;
+  font-size: 20px;
+}
+.add {
+  margin-top: 10px;
+  background: green;
+}
+.delete {
+  background: red;
+  margin-bottom: 10px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  font-family: "Playwrite ES Deco", cursive;
+}
